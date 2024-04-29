@@ -411,7 +411,7 @@ public class shotgun {                     // ↓為了延遲所需
             }
 
         }
-        System.out.println("Gamve Over! " + winner + "是贏家!");
+        System.out.println("Game Over! " + winner + "是贏家!");
         System.out.println(user_name + "在本次遊戲所使用的各項道具明細如下...\n\n");
         Tool.total_item_used(user.use_item, user.use_bullet_total, user.use_bullet_real, user.use_bullet_fake);//秀出最終玩家的擊發子彈數及使用道具數
         Tool.end_the_terminal();
